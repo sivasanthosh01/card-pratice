@@ -1,0 +1,41 @@
+]*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+#sports{
+	background-color:#a1eb3b;
+}
+.container{
+		width:100%;
+		background-color:white;
+		
+		
+}
+.sports-card1{
+				background-color:#e8ad0c;
+				padding:50px;
+				margin:20px;
+}
+.sports-image img{
+	width:100%;
+}
+.sports-row{
+			
+			display:flex;
+			flex-wrap:wrap;
+			flex-direction:row;
+			
+}
+
+
+.sports-col{
+	width:33.33%;
+}
+
+.content{
+	display:none;
+}
+.sports-card1:hover .content{
+			display:block;
+}
